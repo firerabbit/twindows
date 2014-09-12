@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Two Windows",
+  "version": "1.0",
+  "minimum_chrome_version": "29",
+  "description": "Illustrated OSX Chrome 37 window.show(false) regression",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": [
+    "alwaysOnTopWindows"
+  ],
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  }
+}

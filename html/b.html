@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+<head>
+  <title>B</title>
+</head>
+<body style="background-color: green;">
+<div>Window B</div>
+<p>Repro: Go to another app and start typing
+<p>Regression: You should be able to call window.show(false) without showing Window A,
+as well as not stealing focus from the app you are currently using.</p>
+<p>This worked on OSX in Chrome 36</p>
+</body>
+</html>
